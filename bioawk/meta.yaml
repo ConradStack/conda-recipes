@@ -4,7 +4,6 @@ package:
 
 source:
   git_url: https://github.com/ConradStack/bioawk.git
-  git_rev: a410c9e
 
 build:
     number: 1
