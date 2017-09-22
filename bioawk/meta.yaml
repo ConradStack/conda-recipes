@@ -1,0 +1,27 @@
+package:
+  name: bioawk
+  version: "1.0"
+
+source:
+  git_url: https://github.com/ConradStack/bioawk.git
+  git_rev: a410c9e
+
+build:
+    number: 1
+
+requirements:
+    build:
+      - zlib
+      - bison
+      - m4
+    run:
+      - zlib
+
+test:
+  commands:
+    - echo "hw" | bioawk '{print}'
+
+about:
+  home: https://github.com/lh3/bioawk
+  license: Free software license (https://github.com/lh3/bioawk/blob/master/README.awk#L1)
+  summary: BWK awk modified for biological data

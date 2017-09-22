@@ -1,0 +1,92 @@
+## Bioinformatics files (likely to be large)
+# 
+# ----------------
+# fastA / fastQ sequence and index files
+**/*.fasta
+**/*.fasta.gz
+**/*.fa
+**/*.fa.gz
+**/*.fastq
+**/*.fastq.gz
+**/*.fq
+**/*.fq.gz
+**/*.fai
+
+# SAM / BAM and other alignment files and associated index files
+**/*.sam
+**/*.bam
+**/*.bai
+**/*.psl
+**/*.maf
+
+# fast5 sequence files (oxford nanopore)
+**/*.fast5
+**/*.f5
+
+# cytoscope project file
+**/*.cys
+# ----------------
+
+
+## Personal project files
+#
+# ----------------
+_tmp/
+_utils/
+# ----------------
+
+
+## HTML, documentation, and other log files
+#
+# ----------------
+**/*.html
+**/*.pdf
+**/*.html.files/
+# ----------------
+
+
+## R / Rstudio files
+#
+# ----------------
+**/.Rproj
+**/.Rproj.user
+**/.Rhistory
+**/.RData
+**/.Rtmp
+.Renvion
+# ----------------
+
+
+## macOS system files
+#
+# ----------------
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+**/.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# ----------------
+
+
+## Compressed files
+#
+# ----------------
+**/*.zip
+**/*.tar.gz
+**/*.tar.bz2
+# ----------------
+
+
+## C temporary and related files
+#
+# ----------------
+**/*.o
+**/*.so
+**/*.a
+# ----------------
+
