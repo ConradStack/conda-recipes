@@ -36,3 +36,7 @@ printf "@foo\nAAAAAA\n+bar\n000000\n" | bioawk -c fastx 'BEGIN{x=0;MAX=-150} { i
 ## 6. clean up and exit
 exit
 ```
+
+
+
+
